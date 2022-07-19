@@ -1,8 +1,31 @@
-.App {
-  text-align: center;
-  margin-top: 100px;
+:root {
+  --branding-color: #eaf6f6;
+  --secondary-color: blue;
+  --heading-font-family: "Comfortaa", cursive;
+  --default-font-family: "Poppins", sans-serif;
 }
 
-h1 {
+.Hero {
+  text-align: center;
+  background-color: var(--branding-color);
+  padding: 160px 0;
+}
+
+.Hero h1 {
   font-size: 60px;
+  font-family: var(--heading-font-family);
+}
+
+.Hero h3,
+h2 {
+  font-family: var(--default-font-family);
+}
+
+.btn-branding {
+  background: var(--secondary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
 }
