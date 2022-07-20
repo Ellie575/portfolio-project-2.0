@@ -6,24 +6,31 @@
   --general-font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.Hero {
-  text-align: center;
-  background-color: var(--branding-color);
-  padding: 160px 0;
-}
-
-.Hero h1 {
+h1 {
   font-size: 60px;
   font-family: var(--heading-font-family);
+  line-height: 1.5;
 }
 
-.Hero h2,
+h2,
 h3 {
   font-family: var(--default-font-family);
 }
 
-.Hero p {
+p {
   font-family: var(--general-font-family);
+  font-size: 16px;
+  line-height: 30px;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.hero {
+  text-align: center;
+  background-color: var(--branding-color);
+  padding: 160px 0;
 }
 
 .btn-branding {
@@ -33,4 +40,32 @@ h3 {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+}
+
+.btn-branding-outline {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+  .hero {
+    padding: 80px 0;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+    margin: 30px 0;
+  }
 }
