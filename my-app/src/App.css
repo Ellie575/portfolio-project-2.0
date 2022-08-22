@@ -87,6 +87,11 @@ a:hover {
   padding: 120px 60px;
 }
 
+.footer {
+  text-align: center;
+  margin: 0 0 100px 0;
+}
+
 @media (max-width: 960px) {
   .hero {
     padding: 80px 0;
@@ -104,5 +109,9 @@ a:hover {
     padding: 0;
     text-align: center;
     margin: 30px 0;
+  }
+
+  .footer {
+    margin-bottom: 30px;
   }
 }

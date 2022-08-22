@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import WebsiteProject from "./WebsiteProject.png";
 import VanillaJavaScriptWeatherApp from "./VanillaJavaScriptWeatherApp.png";
@@ -39,7 +40,7 @@ function App() {
                   href="https://www.shecodes.io/workshops/shecodes-basics-60f13649-dc6d-4b55-9766-fecefc98bb8b/projects/407994"
                   className="btn-branding-outline"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   Go to website
                 </a>
@@ -59,7 +60,7 @@ function App() {
                   href="https://hardcore-noyce-7321bf.netlify.app/"
                   className="btn-branding-outline"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   Open Weather App
                 </a>
@@ -92,7 +93,7 @@ function App() {
                   href="https://dapper-begonia-95cb66.netlify.app"
                   className="btn-branding-outline"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   Open Weather App
                 </a>
@@ -111,7 +112,7 @@ function App() {
                   href="https://compassionate-fermat-332b54.netlify.app"
                   className="btn-branding-outline"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   Open Dictionary App
                 </a>
@@ -142,7 +143,7 @@ function App() {
                   <a
                     href="https://www.youtube.com/watch?v=DgRrrOt0Vr8"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     See video I referenced here
                   </a>
@@ -151,7 +152,7 @@ function App() {
                   href="https://bright-sundae-5d4a02.netlify.app/"
                   className="btn-branding-outline"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   Open React Calculator App
                 </a>
@@ -168,7 +169,7 @@ function App() {
                   <a
                     href="https://www.youtube.com/watch?v=j59qQ7YWLxw"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     See video I referenced here
                   </a>
@@ -177,7 +178,7 @@ function App() {
                   href="https://delightful-bombolone-18f490.netlify.app/"
                   className="btn-branding-outline"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   Open Calculator App
                 </a>
@@ -208,7 +209,7 @@ function App() {
                   <a
                     href="https://www.youtube.com/watch?v=Ki0XXrlKlHY"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     See video I referenced here
                   </a>
@@ -217,7 +218,7 @@ function App() {
                   href="https://unrivaled-naiad-86cddf.netlify.app/"
                   className="btn-branding-outline"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   Open Clock
                 </a>
@@ -225,6 +226,16 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="footer">
+        All projects above are{" "}
+        <a
+          href="https://github.com/Ellie575?tab=repositories"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          open-sourced on Github
+        </a>
       </div>
     </div>
   );
