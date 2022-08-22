@@ -214,7 +214,7 @@ function App() {
                   </a>
                 </p>
                 <a
-                  href="https://bright-sundae-5d4a02.netlify.app/"
+                  href="https://unrivaled-naiad-86cddf.netlify.app/"
                   className="btn-branding-outline"
                   target="_blank"
                   rel="noreferrer"
