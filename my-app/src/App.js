@@ -3,6 +3,9 @@ import WebsiteProject from "./WebsiteProject.png";
 import VanillaJavaScriptWeatherApp from "./VanillaJavaScriptWeatherApp.png";
 import ReactWeatherApp from "./ReactWeatherApp.png";
 import ReactDictionaryApp from "./ReactDictionaryApp.png";
+import ReactCalculatorApp from "./ReactCalculator.PNG";
+import VanillaJSCalculatorApp from "./VanillaJSCalculatorApp.PNG";
+import VanillaJSClock from "./VanillaJSClock.PNG";
 
 function App() {
   return (
@@ -30,7 +33,7 @@ function App() {
                 <h2 className="mb-5">Basic Website Project</h2>
                 <p className="mb-5 text-muted">
                   A basic webpage about my favourite K-pop group 'ITZY', using
-                  basic html, css and javascript.
+                  basic HTML, CSS and JavaScript.
                 </p>
                 <a
                   href="https://www.shecodes.io/workshops/shecodes-basics-60f13649-dc6d-4b55-9766-fecefc98bb8b/projects/407994"
@@ -48,7 +51,7 @@ function App() {
               <div className="project-description">
                 <h2 className="mb-5">Weather App</h2>
                 <p className="mb-5">
-                  Using more advanced html, css and javascript, also
+                  Using more advanced HTML, CSS and JavaScript, also
                   incorporated tools such as bootstrap, API integration and
                   hosted on Netlify. Code is open-sourced on Github.
                 </p>
@@ -120,6 +123,105 @@ function App() {
                 className="img-fluid"
                 alt="React Dictionary App"
               />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col d-none d-lg-block">
+              <img
+                src={ReactCalculatorApp}
+                className="img-fluid"
+                alt="React Calculator App"
+              />
+            </div>
+            <div className="col">
+              <div className="project-description">
+                <h2 className="mb-5">React Calculator App</h2>
+                <p className="mb-5">
+                  Calculator App using React, hosted on Netlify. Code is
+                  open-sourced on Github.{" "}
+                  <a
+                    href="https://www.youtube.com/watch?v=DgRrrOt0Vr8"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    See video I referenced here
+                  </a>
+                </p>
+                <a
+                  href="https://bright-sundae-5d4a02.netlify.app/"
+                  className="btn-branding-outline"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Open React Calculator App
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+              <div className="project-description">
+                <h2 className="mb-5">Vanilla JavaScript Calculator App</h2>
+                <p className="mb-5">
+                  Calculator App using HTML, CSS and vanilla JavaScript hosted
+                  on Netlify. Code is open-sourced on Github.{" "}
+                  <a
+                    href="https://www.youtube.com/watch?v=j59qQ7YWLxw"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    See video I referenced here
+                  </a>
+                </p>
+                <a
+                  href="https://delightful-bombolone-18f490.netlify.app/"
+                  className="btn-branding-outline"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Open Calculator App
+                </a>
+              </div>
+            </div>
+            <div className="col d-none d-lg-block">
+              <img
+                src={VanillaJSCalculatorApp}
+                className="img-fluid"
+                alt="Vanilla JavaScript Calculator App"
+              />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col d-none d-lg-block">
+              <img
+                src={VanillaJSClock}
+                className="img-fluid"
+                alt="Vanilla JavaScript Clock"
+              />
+            </div>
+            <div className="col">
+              <div className="project-description">
+                <h2 className="mb-5">Vanilla JavaScript Clock</h2>
+                <p className="mb-5">
+                  Clock App using HTML, CSS and vanilla JavaScript hosted on
+                  Netlify. Code is open-sourced on Github.{" "}
+                  <a
+                    href="https://www.youtube.com/watch?v=Ki0XXrlKlHY"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    See video I referenced here
+                  </a>
+                </p>
+                <a
+                  href="https://bright-sundae-5d4a02.netlify.app/"
+                  className="btn-branding-outline"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Open Clock
+                </a>
+              </div>
             </div>
           </div>
         </div>
