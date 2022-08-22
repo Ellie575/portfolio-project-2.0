@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #eaf6f6;
-  --secondary-color: blue;
+  --branding-color: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  --secondary-color: #a2a8d3;
   --heading-font-family: "Comfortaa", cursive;
   --default-font-family: "Poppins", sans-serif;
   --general-font-family: Georgia, "Times New Roman", Times, serif;
@@ -27,9 +27,18 @@ img {
   border-radius: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+a:hover {
+  color: #7c73e6;
+}
+
 .hero {
   text-align: center;
-  background-color: var(--branding-color);
+  background: var(--branding-color);
   padding: 160px 0;
 }
 
@@ -42,13 +51,26 @@ img {
   padding: 12px 20px;
 }
 
+.btn-branding:hover {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  background: transparent;
+}
+
 .btn-branding-outline {
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
-  border-radius: 4px;
+  border-radius: 25px;
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+  text-decoration: none;
+}
+
+.btn-branding-outline:hover {
+  color: white;
+  border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .project-description {

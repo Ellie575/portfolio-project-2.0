@@ -24,7 +24,7 @@ function App() {
             <div className="col d-none d-lg-block">
               <img
                 src={WebsiteProject}
-                className="img-fluid"
+                className="img-fluid mt-5"
                 alt="Website Project"
               />
             </div>
@@ -50,7 +50,7 @@ function App() {
             <div className="col">
               <div className="project-description">
                 <h2 className="mb-5">Weather App</h2>
-                <p className="mb-5">
+                <p className="mb-5 text-muted">
                   Using more advanced HTML, CSS and JavaScript, also
                   incorporated tools such as bootstrap, API integration and
                   hosted on Netlify. Code is open-sourced on Github.
@@ -68,7 +68,7 @@ function App() {
             <div className="col d-none d-lg-block">
               <img
                 src={VanillaJavaScriptWeatherApp}
-                className="img-fluid"
+                className="img-fluid mt-5"
                 alt="Weather App"
               />
             </div>
@@ -84,7 +84,7 @@ function App() {
             <div className="col">
               <div className="project-description">
                 <h2 className="mb-5">React Weather App</h2>
-                <p className="mb-5">
+                <p className="mb-5 text-muted">
                   Weather App using React, Bootstrap, API integration and hosted
                   on Netlify. Code is open-sourced on Github.
                 </p>
@@ -103,7 +103,7 @@ function App() {
             <div className="col">
               <div className="project-description">
                 <h2 className="mb-5">React Dictionary App</h2>
-                <p className="mb-5">
+                <p className="mb-5 text-muted">
                   Dictionary App using React, Bootstrap, API integration and
                   hosted on Netlify. Code is open-sourced on Github.
                 </p>
@@ -136,7 +136,7 @@ function App() {
             <div className="col">
               <div className="project-description">
                 <h2 className="mb-5">React Calculator App</h2>
-                <p className="mb-5">
+                <p className="mb-5 text-muted">
                   Calculator App using React, hosted on Netlify. Code is
                   open-sourced on Github.{" "}
                   <a
@@ -162,7 +162,7 @@ function App() {
             <div className="col">
               <div className="project-description">
                 <h2 className="mb-5">Vanilla JavaScript Calculator App</h2>
-                <p className="mb-5">
+                <p className="mb-5 text-muted">
                   Calculator App using HTML, CSS and vanilla JavaScript hosted
                   on Netlify. Code is open-sourced on Github.{" "}
                   <a
@@ -186,7 +186,7 @@ function App() {
             <div className="col d-none d-lg-block">
               <img
                 src={VanillaJSCalculatorApp}
-                className="img-fluid"
+                className="img-fluid mt-5"
                 alt="Vanilla JavaScript Calculator App"
               />
             </div>
@@ -195,14 +195,14 @@ function App() {
             <div className="col d-none d-lg-block">
               <img
                 src={VanillaJSClock}
-                className="img-fluid"
+                className="img-fluid mt-5"
                 alt="Vanilla JavaScript Clock"
               />
             </div>
             <div className="col">
               <div className="project-description">
                 <h2 className="mb-5">Vanilla JavaScript Clock</h2>
-                <p className="mb-5">
+                <p className="mb-5 text-muted">
                   Clock App using HTML, CSS and vanilla JavaScript hosted on
                   Netlify. Code is open-sourced on Github.{" "}
                   <a
