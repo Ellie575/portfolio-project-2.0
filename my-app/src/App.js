@@ -1,12 +1,15 @@
 import React from "react";
 import "./App.css";
 import WebsiteProject from "./WebsiteProject.png";
+import EarlyPortfolioPage from "./EarlyPortfolioPage.PNG";
 import VanillaJavaScriptWeatherApp from "./VanillaJavaScriptWeatherApp.png";
 import ReactWeatherApp from "./ReactWeatherApp.png";
 import ReactDictionaryApp from "./ReactDictionaryApp.png";
 import ReactCalculatorApp from "./ReactCalculator.PNG";
 import VanillaJSCalculatorApp from "./VanillaJSCalculatorApp.PNG";
 import VanillaJSClock from "./VanillaJSClock.PNG";
+import VanillaJSQuizGame from "./VanillaJSQuizApp.PNG";
+import vanillaJSAdventure from "./vanillaJSAdventureGame.PNG";
 
 function App() {
   return (
@@ -50,6 +53,40 @@ function App() {
           <div className="row">
             <div className="col">
               <div className="project-description">
+                <h2 className="mb-5">Responsive Portfolio Project</h2>
+                <p className="mb-5 text-muted">
+                  An earlier portfolio project using HTML, CSS, Javascript and
+                  Responsive Design.
+                </p>
+                <a
+                  href="https://sad-bardeen-5faffc.netlify.app/"
+                  className="btn-branding-outline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Go to website
+                </a>
+              </div>
+            </div>
+            <div className="col d-none d-lg-block">
+              <img
+                src={EarlyPortfolioPage}
+                className="img-fluid mt-5"
+                alt="Earlier version of portfolio"
+              />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col d-none d-lg-block">
+              <img
+                src={VanillaJavaScriptWeatherApp}
+                className="img-fluid mt-5"
+                alt="Weather App"
+              />
+            </div>
+
+            <div className="col">
+              <div className="project-description">
                 <h2 className="mb-5">Weather App</h2>
                 <p className="mb-5 text-muted">
                   Using more advanced HTML, CSS and JavaScript, also
@@ -66,22 +103,8 @@ function App() {
                 </a>
               </div>
             </div>
-            <div className="col d-none d-lg-block">
-              <img
-                src={VanillaJavaScriptWeatherApp}
-                className="img-fluid mt-5"
-                alt="Weather App"
-              />
-            </div>
           </div>
           <div className="row">
-            <div className="col d-none d-lg-block">
-              <img
-                src={ReactWeatherApp}
-                className="img-fluid"
-                alt="React Weather App"
-              />
-            </div>
             <div className="col">
               <div className="project-description">
                 <h2 className="mb-5">React Weather App</h2>
@@ -99,8 +122,23 @@ function App() {
                 </a>
               </div>
             </div>
+            <div className="col d-none d-lg-block">
+              <img
+                src={ReactWeatherApp}
+                className="img-fluid"
+                alt="React Weather App"
+              />
+            </div>
           </div>
           <div className="row">
+            <div className="col d-none d-lg-block">
+              <img
+                src={ReactDictionaryApp}
+                className="img-fluid"
+                alt="React Dictionary App"
+              />
+            </div>
+
             <div className="col">
               <div className="project-description">
                 <h2 className="mb-5">React Dictionary App</h2>
@@ -118,22 +156,8 @@ function App() {
                 </a>
               </div>
             </div>
-            <div className="col d-none d-lg-block">
-              <img
-                src={ReactDictionaryApp}
-                className="img-fluid"
-                alt="React Dictionary App"
-              />
-            </div>
           </div>
           <div className="row">
-            <div className="col d-none d-lg-block">
-              <img
-                src={ReactCalculatorApp}
-                className="img-fluid"
-                alt="React Calculator App"
-              />
-            </div>
             <div className="col">
               <div className="project-description">
                 <h2 className="mb-5">React Calculator App</h2>
@@ -158,8 +182,22 @@ function App() {
                 </a>
               </div>
             </div>
+            <div className="col d-none d-lg-block">
+              <img
+                src={ReactCalculatorApp}
+                className="img-fluid"
+                alt="React Calculator App"
+              />
+            </div>
           </div>
           <div className="row">
+            <div className="col d-none d-lg-block">
+              <img
+                src={VanillaJSCalculatorApp}
+                className="img-fluid mt-5"
+                alt="Vanilla JavaScript Calculator App"
+              />
+            </div>
             <div className="col">
               <div className="project-description">
                 <h2 className="mb-5">Vanilla JavaScript Calculator App</h2>
@@ -184,22 +222,8 @@ function App() {
                 </a>
               </div>
             </div>
-            <div className="col d-none d-lg-block">
-              <img
-                src={VanillaJSCalculatorApp}
-                className="img-fluid mt-5"
-                alt="Vanilla JavaScript Calculator App"
-              />
-            </div>
           </div>
           <div className="row">
-            <div className="col d-none d-lg-block">
-              <img
-                src={VanillaJSClock}
-                className="img-fluid mt-5"
-                alt="Vanilla JavaScript Clock"
-              />
-            </div>
             <div className="col">
               <div className="project-description">
                 <h2 className="mb-5">Vanilla JavaScript Clock</h2>
@@ -223,6 +247,79 @@ function App() {
                   Open Clock
                 </a>
               </div>
+            </div>
+            <div className="col d-none d-lg-block">
+              <img
+                src={VanillaJSClock}
+                className="img-fluid mt-5"
+                alt="Vanilla JavaScript Clock"
+              />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col d-none d-lg-block">
+              <img
+                src={VanillaJSQuizGame}
+                className="img-fluid mt-5"
+                alt="Vanilla JavaScript Quiz App"
+              />
+            </div>
+            <div className="col">
+              <div className="project-description">
+                <h2 className="mb-5">Vanilla JavaScript Quiz App</h2>
+                <p className="mb-5 text-muted">
+                  Quiz App using HTML, CSS and vanilla JavaScript hosted on
+                  Netlify. Code is open-sourced on Github.{" "}
+                  <a
+                    href="https://www.youtube.com/watch?v=riDzcEQbX6k"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    See video I referenced here
+                  </a>
+                </p>
+                <a
+                  href="https://sparkly-starship-a54621.netlify.app"
+                  className="btn-branding-outline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open Quiz App
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+              <div className="project-description">
+                <h2 className="mb-5">Vanilla JavaScript Text Adventure Game</h2>
+                <p className="mb-5 text-muted">
+                  Quiz App using HTML, CSS and vanilla JavaScript.
+                  <a
+                    href="https://youtube.com/watch?v=R1S_NhKkvGA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    See video I referenced here
+                  </a>
+                </p>
+                <a
+                  href="https://bucolic-gingersnap-765ab2.netlify.app"
+                  className="btn-branding-outline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Go on a Text Adventure
+                </a>
+              </div>
+            </div>
+            <div className="col d-none d-lg-block">
+              <img
+                src={vanillaJSAdventure}
+                className="img-fluid mt-5"
+                alt="Vanilla JavaScript Text Adventure Game"
+              />
             </div>
           </div>
         </div>

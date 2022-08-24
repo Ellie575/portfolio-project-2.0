@@ -75,6 +75,7 @@ a:hover {
   line-height: 27px;
   padding: 12px 20px;
   text-decoration: none;
+  transition: all 0.5s ease-in-out;
 }
 
 .btn-branding-outline:hover {
