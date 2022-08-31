@@ -10,6 +10,8 @@ import VanillaJSCalculatorApp from "./VanillaJSCalculatorApp.PNG";
 import VanillaJSClock from "./VanillaJSClock.PNG";
 import VanillaJSQuizGame from "./VanillaJSQuizApp.PNG";
 import vanillaJSAdventure from "./vanillaJSAdventureGame.PNG";
+import vanillaJSTicTacToe from "./vanillaJSTicTacToe.PNG";
+import vanillaJSSnakeGame from "./vanillaJSSnakeGame.PNG";
 
 function App() {
   return (
@@ -319,6 +321,72 @@ function App() {
                 src={vanillaJSAdventure}
                 className="img-fluid mt-5"
                 alt="Vanilla JavaScript Text Adventure Game"
+              />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col d-none d-lg-block">
+              <img
+                src={vanillaJSTicTacToe}
+                className="img-fluid mt-5"
+                alt="Vanilla JavaScript Tic Tac Toe"
+              />
+            </div>
+            <div className="col">
+              <div className="project-description">
+                <h2 className="mb-5">Vanilla JavaScript Tic Tac Toe</h2>
+                <p className="mb-5 text-muted">
+                  Quiz App using HTML, CSS and vanilla JavaScript.
+                  <a
+                    href="https://www.youtube.com/watch?v=Y-GkMjUZsmM"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    See video I referenced here
+                  </a>
+                </p>
+                <a
+                  href="https://delightful-brigadeiros-4d60c9.netlify.app"
+                  className="btn-branding-outline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Play Tic Tac Toe
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+              <div className="project-description">
+                <h2 className="mb-5">Vanilla JavaScript Snake Game</h2>
+                <p className="mb-5 text-muted">
+                  Quiz App using HTML, CSS and vanilla JavaScript.
+                  <a
+                    href="https://www.youtube.com/watch?v=QTcIXok9wNY"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    See video I referenced here
+                  </a>
+                </p>
+                <a
+                  href="https://melodious-arithmetic-82d978.netlify.app"
+                  className="btn-branding-outline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Play Snake Game
+                </a>
+              </div>
+            </div>
+            <div className="col d-none d-lg-block">
+              <img
+                src={vanillaJSSnakeGame}
+                className="img-fluid mt-5"
+                alt="Vanilla JavaScript Snake Game"
               />
             </div>
           </div>
